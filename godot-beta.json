@@ -11,11 +11,11 @@
       "url": "https://downloads.tuxfamily.org/godotengine/4.0/beta1/Godot_v4.0-beta1_win32.exe.zip"
     }
   },
-  "pre_install": "Get-ChildItem \"$dir\\Godot_*.exe\" | Rename-Item -NewName \"$dir\\godot.exe\"",
-  "bin": "godot.exe",
+  "pre_install": "Get-ChildItem \"$dir\\Godot_*.exe\" | Rename-Item -NewName \"$dir\\godot_beta.exe\"",
+  "bin": "godot_beta.exe",
   "shortcuts": [
     [
-      "godot.exe",
+      "godot_beta.exe",
       "Godot Engine Beta"
     ]
   ]
